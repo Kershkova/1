@@ -1,0 +1,8 @@
+k = input("kilkist yabluk v koshyku ")
+print("k=", k, end="\n")
+n = input("kilkist uchniv ")
+print("n=", n, end="\n")
+b = int(k)//int(n)
+print("koznomu uchnu po ", b ," yabluka", end="\n")
+c = int(k)%int(n)
+print("v koshuky zalyshytsa ", c ," yabluk", end="\n")
