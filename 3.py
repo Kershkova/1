@@ -6,3 +6,4 @@ d = int(c)%10
 s = int(c)//10
 m = int(b)*100+int(d)*10+int(s)
 print(m)
+print(type(m))
