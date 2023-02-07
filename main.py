@@ -7,7 +7,7 @@ middle = 0
 max = 0
 a = input("input number ")
 min = a
-if int(a) !=0:
+if int(a) != 0:
     while int(a) != 0:
         i += 1
         sum = int(sum) + int(a)
@@ -26,7 +26,10 @@ if int(a) !=0:
 
         a = input("input number ")
     else:
-        print("number of inputs ", i, "\nsummary ", sum, "\naverage ", middle, "\neven numbers ", even, "\nodd numbers ", odd,"\nmax number ",max, "\nmin number", min)
-else: 
-    print ("input not 0")
-    
+        print("number of inputs ", i, "\nsummary ", sum, "\naverage ", middle, "\neven numbers ", even,
+              "\nodd numbers ", odd, "\nmax number ", max, "\nmin number", min)
+else:
+    print("input not 0")
+
+
+
