@@ -6,4 +6,4 @@ l_2 = set(text_2.split(' '))
 
 unique = set(l_1 ^ l_2)
 print(unique)
-print(len(unique))
+print("унікальних елементів разом у двох списках:", len(unique))
