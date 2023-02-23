@@ -21,8 +21,9 @@ def price(spysok):
         list1 = spysok[k]
         if list1[2] * list1[3] < 100:
             list1[3] = list1[3] * list1[2] + 10
-            list1[3] = str(list1[3])
+
         else:list1[3] = list1[3] * list1[2]
+        list1[3] = str(list1[3])
         list1[2] = str(list1[2])
         spysok[k] = list1
     return list(spysok)
