@@ -60,9 +60,11 @@ def traingle_plus_all(hight):
         list_s = []
         for j in range(hight*2-1):
             list_s.append(" ")
-            if j >= i and j <= hight*2 - i - 2:
+            if j == i or j == hight*2-i - 2:
                 list_s[j] = "*"
             if i == 0:
+                list_s[j] = "*"
+            if j == hight - 1:
                 list_s[j] = "*"
         print("".join(list_s))
 
